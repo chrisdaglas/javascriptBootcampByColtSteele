@@ -47,6 +47,6 @@ isChild(18);
 
 function callBackTest(isChild) {
   return function() {
-    console.log(isChild(12));
+    console.log(isChild(14));
   };
 }
