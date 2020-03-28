@@ -45,8 +45,14 @@ function makeBetweenFunc(start, end) {
 const isChild = makeBetweenFunc(0, 18);
 isChild(18);
 
-function callBackTest(isChild) {
-  return function() {
-    console.log(isChild(14));
-  };
+//******CALLBACK FUNCTIONS********//
+function callTwice(func) {
+  func();
+  func();
 }
+
+function laugh() {
+  console.log("hahahahhaha");
+}
+
+callTwice(laugh); //pass a function as ana arg;
