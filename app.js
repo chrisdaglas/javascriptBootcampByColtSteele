@@ -44,5 +44,3 @@ function makeBetweenFunc(start, end) {
 
 const isChild = makeBetweenFunc(0, 18);
 isChild(18);
-console.log("hello");
-console.log("hello");
