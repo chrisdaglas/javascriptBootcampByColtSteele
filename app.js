@@ -57,6 +57,3 @@ function laugh() {
 
 callTwice(laugh); //pass a function as ana arg;
 
-  function JustChecking(){
-    console.log("Just Checking");
-  }
